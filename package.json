@@ -1,6 +1,6 @@
 {
 	"name": "@remato/colors",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"main": "colors.scss",
 	"devDependencies": {
 		"@remato/prettier-config": "git+ssh://git@github.com/rematocorp/prettier-config.git#master",
