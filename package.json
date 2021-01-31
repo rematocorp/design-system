@@ -1,7 +1,7 @@
 {
-	"name": "@remato/colors",
-	"version": "1.1.1",
-	"main": "colors.scss",
+	"name": "@remato/design-system",
+	"version": "1.2.0",
+	"main": "index.js",
 	"devDependencies": {
 		"@remato/prettier-config": "git+ssh://git@github.com/rematocorp/prettier-config.git#master",
 		"@remato/stylelint-config": "git+ssh://git@github.com/rematocorp/stylelint-config.git#master",
