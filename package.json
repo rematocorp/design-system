@@ -2,6 +2,7 @@
 	"name": "@remato/design-system",
 	"version": "1.2.0",
 	"main": "index.js",
+	"types": "index.d.ts",
 	"devDependencies": {
 		"@remato/prettier-config": "git+ssh://git@github.com/rematocorp/prettier-config.git#master",
 		"@remato/stylelint-config": "git+ssh://git@github.com/rematocorp/stylelint-config.git#master",
