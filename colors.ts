@@ -31,6 +31,7 @@ const colors = {
 	blue700: '#0053c2',
 	blue600: '#006ddc',
 	blue500: '#0e86f5',
+	blue300: '#86c2fa',
 	blue200: '#c3e1fc',
 	blue100: '#e7f3fe',
 
