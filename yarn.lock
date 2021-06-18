@@ -216,8 +216,8 @@
 
 "@remato/stylelint-config@git+ssh://git@github.com/rematocorp/stylelint-config.git#master":
   version "1.4.1"
-  uid "20e0e8b13e233d9e7e02b77da7f7c8f969bcf0c1"
-  resolved "git+ssh://git@github.com/rematocorp/stylelint-config.git#20e0e8b13e233d9e7e02b77da7f7c8f969bcf0c1"
+  uid cb1377e71858f398bcda414e45d6b1deb466bc4f
+  resolved "git+ssh://git@github.com/rematocorp/stylelint-config.git#cb1377e71858f398bcda414e45d6b1deb466bc4f"
   dependencies:
     stylelint-declaration-use-variable "^1.7.2"
     stylelint-scss "^3.19.0"
