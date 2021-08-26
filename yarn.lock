@@ -215,9 +215,9 @@
   resolved "git+ssh://git@github.com/rematocorp/prettier-config.git#f4c3638375c22430274a50ec593aa7a267a35f3a"
 
 "@remato/stylelint-config@git+ssh://git@github.com/rematocorp/stylelint-config.git#master":
-  version "1.4.1"
-  uid "056b0aed80f6ac879f9208973cd1682a5fe0d0f2"
-  resolved "git+ssh://git@github.com/rematocorp/stylelint-config.git#056b0aed80f6ac879f9208973cd1682a5fe0d0f2"
+  version "1.5.0"
+  uid "659b45789cec44c7e5926df72c04cb01e8e794e5"
+  resolved "git+ssh://git@github.com/rematocorp/stylelint-config.git#659b45789cec44c7e5926df72c04cb01e8e794e5"
   dependencies:
     stylelint-declaration-use-variable "^1.7.2"
     stylelint-scss "^3.20.1"
