@@ -46,6 +46,7 @@ const colors = {
 	orange600: '#d59400',
 	orange500: '#eead09',
 
+	yellow600: '#dec457',
 	yellow500: '#f7da61',
 	yellow300: '#fbecb0',
 	yellow200: '#fdf6d7',
