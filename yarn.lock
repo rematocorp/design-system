@@ -50,10 +50,10 @@
 
 "@remato/stylelint-config@git+ssh://git@github.com/rematocorp/stylelint-config.git#master":
   version "1.7.0"
-  uid "861a4f5a44cd8a66190a4058e97d908e7a3388cf"
-  resolved "git+ssh://git@github.com/rematocorp/stylelint-config.git#861a4f5a44cd8a66190a4058e97d908e7a3388cf"
+  uid "9ffd3443faa751737895324125f6e41d854d8e5a"
+  resolved "git+ssh://git@github.com/rematocorp/stylelint-config.git#9ffd3443faa751737895324125f6e41d854d8e5a"
   dependencies:
-    stylelint-declaration-strict-value "^1.7.12"
+    stylelint-declaration-strict-value "^1.8.0"
     stylelint-scss "^4.0.0"
 
 "@types/minimist@^1.2.0":
@@ -1024,10 +1024,10 @@ style-search@^0.1.0:
   resolved "https://registry.yarnpkg.com/style-search/-/style-search-0.1.0.tgz#7958c793e47e32e07d2b5cafe5c0bf8e12e77902"
   integrity sha1-eVjHk+R+MuB9K1yv5cC/jhLneQI=
 
-stylelint-declaration-strict-value@^1.7.12:
-  version "1.7.12"
-  resolved "https://registry.yarnpkg.com/stylelint-declaration-strict-value/-/stylelint-declaration-strict-value-1.7.12.tgz#a4ff5d6cfc955c91f2dbe1b75bd35da99dd35d02"
-  integrity sha512-SHI5mHtDksXtiMFfEspm4VoTRVIQ7pp/qkDjZvwV/FTUWmjfLCo7EkWlrCKJS0+kdxrD/YamFFdK8pGJECQamg==
+stylelint-declaration-strict-value@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/stylelint-declaration-strict-value/-/stylelint-declaration-strict-value-1.8.0.tgz#d14f368d5974085896d6573cab7c82ad4f415f57"
+  integrity sha512-0+DbPQMgqomlBG+uycI3PZ1BzjJ7mJA065Lx+iTg9tlmjBD36f3ZaIq1ggRZQitE0w+KcbXGzFt6axR1LIP2hw==
   dependencies:
     css-values "^0.1.0"
     shortcss "^0.1.3"
