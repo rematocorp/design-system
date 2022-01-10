@@ -16,6 +16,6 @@
 		"@remato/prettier-config": "git+ssh://git@github.com/rematocorp/prettier-config.git#master",
 		"@remato/stylelint-config": "git+ssh://git@github.com/rematocorp/stylelint-config.git#master",
 		"stylelint": "^14.2.0",
-		"typescript": "^4.5.2"
+		"typescript": "^4.5.4"
 	}
 }
