@@ -50,11 +50,11 @@
 
 "@remato/stylelint-config@git+ssh://git@github.com/rematocorp/stylelint-config.git#master":
   version "1.7.0"
-  uid be8a737e0eca0039ce9c93bda831821e5f17fd0d
-  resolved "git+ssh://git@github.com/rematocorp/stylelint-config.git#be8a737e0eca0039ce9c93bda831821e5f17fd0d"
+  uid "1f77467c31c058a262726518003391a01d9ba868"
+  resolved "git+ssh://git@github.com/rematocorp/stylelint-config.git#1f77467c31c058a262726518003391a01d9ba868"
   dependencies:
     stylelint-declaration-strict-value "^1.8.0"
-    stylelint-scss "^4.0.1"
+    stylelint-scss "^4.1.0"
 
 "@types/minimist@^1.2.0":
   version "1.2.1"
@@ -1032,10 +1032,10 @@ stylelint-declaration-strict-value@^1.8.0:
     css-values "^0.1.0"
     shortcss "^0.1.3"
 
-stylelint-scss@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-4.0.1.tgz#da03f687c5bf8b91ea40d389ad29e07c328582b1"
-  integrity sha512-Ea+KY7ZFsDhU6Ne9r84y7NvFSNA843w352MSdQeDmklar0pDbeQj9flKrVAuDIlK0pDDdhFtgBl/N0FrtWHq0g==
+stylelint-scss@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-4.1.0.tgz#39b808696f8152081163d970449257ff80b5c041"
+  integrity sha512-BNYTo7MMamhFOlcaAWp2dMpjg6hPyM/FFqfDIYzmYVLMmQJqc8lWRIiTqP4UX5bresj9Vo0dKC6odSh43VP2NA==
   dependencies:
     lodash "^4.17.21"
     postcss-media-query-parser "^0.2.3"
