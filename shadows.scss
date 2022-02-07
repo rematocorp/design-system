@@ -1,5 +1,7 @@
-$shadow-level-1: 0px 1px 1px rgba($black, 0.12);
-$shadow-level-2: 0 0 2px rgba($black, 0.2), 0 2px 8px rgba($black, 0.12);
-$shadow-level-3: 0 1px 6px rgba($black, 0.2), 0 2px 20px rgba($black, 0.12);
-$shadow-level-3-colored-background: 0 1px 6px rgba($black, 0.28), 0 2px 20px rgba($black, 0.16);
-$shadow-level-4: 0 2px 24px rgba($black, 0.2), 0 4px 56px rgba($black, 0.12);
+@use './colors';
+
+$shadow-level-1: 0px 1px 1px rgba(colors.$black, 0.12);
+$shadow-level-2: 0 0 2px rgba($black, 0.2), 0 2px 8px rgba(colors.$black, 0.12);
+$shadow-level-3: 0 1px 6px rgba($black, 0.2), 0 2px 20px rgba(colors.$black, 0.12);
+$shadow-level-3-colored-background: 0 1px 6px rgba($black, 0.28), 0 2px 20px rgba(colors.$black, 0.16);
+$shadow-level-4: 0 2px 24px rgba($black, 0.2), 0 4px 56px rgba(colors.$black, 0.12);
