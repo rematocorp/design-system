@@ -1,0 +1,47 @@
+/**
+ * Remato most common transitions
+ *
+ * https://www.figma.com/file/F2PQ9LaVUGTNrS3ZMnOLzq/%23-TRANSITIONS
+ */
+
+// Timing functions
+$transition-func-ease-out: cubic-bezier(0.15, 0, 0, 1); // https://cubic-bezier.com/#.15,0,0,1
+
+$transition-func-ease-out-sine: cubic-bezier(0.61, 1, 0.88, 1); // https://easings.net/#easeOutSine
+$transition-func-ease-in-out-sine: cubic-bezier(0.37, 0, 0.63, 1); // https://easings.net/#easeInOutSine
+
+$transition-func-ease-in-quad: cubic-bezier(0.11, 0, 0.5, 0); // https://easings.net/#easeInQuad
+$transition-func-ease-out-quad: cubic-bezier(0.5, 1, 0.89, 1); // https://easings.net/#easeOutQuad
+
+$transition-func-ease-in-cubic: cubic-bezier(0.32, 0, 0.67, 0); // https://easings.net/#easeInCubic
+$transition-func-ease-in-out-cubic: cubic-bezier(0.65, 0, 0.35, 1); // https://easings.net/#easeInOutCubic
+
+$transition-func-ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1); // https://easings.net/#easeOutQuart
+
+$transition-func-ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1); // https://easings.net/#easeOutQuint
+$transition-func-ease-in-out-quint: cubic-bezier(0.83, 0, 0.17, 1); // https://easings.net/#easeInOutQuint
+
+$transition-func-ease-in-expo: cubic-bezier(0.7, 0, 0.84, 0); // https://easings.net/#easeInExpo
+$transition-func-ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1); // https://easings.net/#easeOutExpo
+
+// Most common durations
+$transition-dur-100: 100ms;
+$transition-dur-200: 200ms;
+$transition-dur-300: 300ms;
+$transition-dur-400: 400ms;
+$transition-dur-500: 500ms;
+$transition-dur-1000: 1000ms;
+
+// Most common combinations
+$transition-ease-out-100: $transition-dur-100 $transition-func-ease-out;
+$transition-ease-out-200: $transition-dur-200 $transition-func-ease-out;
+$transition-ease-out-300: $transition-dur-300 $transition-func-ease-out;
+
+$transition-ease-in-out-cubic-200: $transition-dur-200 $transition-func-ease-in-out-cubic;
+
+$transition-ease-out-quint-200: $transition-dur-200 $transition-func-ease-out-quint;
+
+$transition-ease-in-expo-200: $transition-dur-200 $transition-func-ease-in-expo;
+$transition-ease-in-expo-300: $transition-dur-300 $transition-func-ease-in-expo;
+$transition-ease-out-expo-300: $transition-dur-300 $transition-func-ease-out-expo;
+$transition-ease-out-expo-200: $transition-dur-200 $transition-func-ease-out-expo;
