@@ -5,43 +5,51 @@
  */
 
 // Timing functions
-$transition-func-ease-out: cubic-bezier(0.15, 0, 0, 1); // https://cubic-bezier.com/#.15,0,0,1
+$ease-out: cubic-bezier(0.15, 0, 0, 1); // https://cubic-bezier.com/#.15,0,0,1
 
-$transition-func-ease-out-sine: cubic-bezier(0.61, 1, 0.88, 1); // https://easings.net/#easeOutSine
-$transition-func-ease-in-out-sine: cubic-bezier(0.37, 0, 0.63, 1); // https://easings.net/#easeInOutSine
+$ease-in-sine: cubic-bezier(0.12, 0, 0.39, 0); // https://easings.net/#easeInSine
+$ease-out-sine: cubic-bezier(0.61, 1, 0.88, 1); // https://easings.net/#easeOutSine
+$ease-in-out-sine: cubic-bezier(0.37, 0, 0.63, 1); // https://easings.net/#easeInOutSine
 
-$transition-func-ease-in-quad: cubic-bezier(0.11, 0, 0.5, 0); // https://easings.net/#easeInQuad
-$transition-func-ease-out-quad: cubic-bezier(0.5, 1, 0.89, 1); // https://easings.net/#easeOutQuad
+$ease-in-quad: cubic-bezier(0.11, 0, 0.5, 0); // https://easings.net/#easeInQuad
+$ease-out-quad: cubic-bezier(0.5, 1, 0.89, 1); // https://easings.net/#easeOutQuad
+$ease-in-out-quad: cubic-bezier(0.45, 0, 0.55, 1); // https://easings.net/#easeInOutQuad
 
-$transition-func-ease-in-cubic: cubic-bezier(0.32, 0, 0.67, 0); // https://easings.net/#easeInCubic
-$transition-func-ease-in-out-cubic: cubic-bezier(0.65, 0, 0.35, 1); // https://easings.net/#easeInOutCubic
+$ease-in-cubic: cubic-bezier(0.32, 0, 0.67, 0); // https://easings.net/#easeInCubic
+$ease-out-cubic: cubic-bezier(0.33, 1, 0.68, 1); // https://easings.net/#easeOutCubic
+$ease-in-out-cubic: cubic-bezier(0.65, 0, 0.35, 1); // https://easings.net/#easeInOutCubic
 
-$transition-func-ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1); // https://easings.net/#easeOutQuart
+$ease-in-quart: cubic-bezier(0.5, 0, 0.75, 0); // https://easings.net/#easeInQuart
+$ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1); // https://easings.net/#easeOutQuart
+$ease-in-out-quart: cubic-bezier(0.76, 0, 0.24, 1); // https://easings.net/#easeInOutQuart
 
-$transition-func-ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1); // https://easings.net/#easeOutQuint
-$transition-func-ease-in-out-quint: cubic-bezier(0.83, 0, 0.17, 1); // https://easings.net/#easeInOutQuint
+$ease-in-quint: cubic-bezier(0.64, 0, 0.78, 0); // https://easings.net/#easeInQuint
+$ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1); // https://easings.net/#easeOutQuint
+$ease-in-out-quint: cubic-bezier(0.83, 0, 0.17, 1); // https://easings.net/#easeInOutQuint
 
-$transition-func-ease-in-expo: cubic-bezier(0.7, 0, 0.84, 0); // https://easings.net/#easeInExpo
-$transition-func-ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1); // https://easings.net/#easeOutExpo
+$ease-in-expo: cubic-bezier(0.7, 0, 0.84, 0); // https://easings.net/#easeInExpo
+$ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1); // https://easings.net/#easeOutExpo
+$ease-in-out-expo: cubic-bezier(0.87, 0, 0.13, 1); // https://easings.net/#easeInOutExpo
 
 // Most common durations
-$transition-dur-100: 100ms;
-$transition-dur-200: 200ms;
-$transition-dur-300: 300ms;
-$transition-dur-400: 400ms;
-$transition-dur-500: 500ms;
-$transition-dur-1000: 1000ms;
+$duration-100: 100ms;
+$duration-200: 200ms;
+$duration-300: 300ms;
+$duration-400: 400ms;
+$duration-500: 500ms;
+$duration-1000: 1000ms;
 
 // Most common combinations
-$transition-ease-out-100: $transition-dur-100 $transition-func-ease-out;
-$transition-ease-out-200: $transition-dur-200 $transition-func-ease-out;
-$transition-ease-out-300: $transition-dur-300 $transition-func-ease-out;
+$ease-out-100: $duration-100 $ease-out;
+$ease-out-200: $duration-200 $ease-out;
+$ease-out-300: $duration-300 $ease-out;
 
-$transition-ease-in-out-cubic-200: $transition-dur-200 $transition-func-ease-in-out-cubic;
+$ease-in-out-cubic-200: $duration-200 $ease-in-out-cubic;
 
-$transition-ease-out-quint-200: $transition-dur-200 $transition-func-ease-out-quint;
+$ease-out-quint-200: $duration-200 $ease-out-quint;
 
-$transition-ease-in-expo-200: $transition-dur-200 $transition-func-ease-in-expo;
-$transition-ease-in-expo-300: $transition-dur-300 $transition-func-ease-in-expo;
-$transition-ease-out-expo-300: $transition-dur-300 $transition-func-ease-out-expo;
-$transition-ease-out-expo-200: $transition-dur-200 $transition-func-ease-out-expo;
+$ease-in-expo-200: $duration-200 $ease-in-expo;
+$ease-in-expo-300: $duration-300 $ease-in-expo;
+
+$ease-out-expo-200: $duration-200 $ease-out-expo;
+$ease-out-expo-300: $duration-300 $ease-out-expo;
