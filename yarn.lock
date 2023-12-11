@@ -71,8 +71,8 @@
 
 "@remato/stylelint-config@git+ssh://git@github.com/rematocorp/stylelint-config.git#master":
   version "1.10.6"
-  uid f224515cf5ebf646cdeaf6aab1b57e3dca099904
-  resolved "git+ssh://git@github.com/rematocorp/stylelint-config.git#f224515cf5ebf646cdeaf6aab1b57e3dca099904"
+  uid d699319a4dbb42580a66cfed7a226a2839f85b77
+  resolved "git+ssh://git@github.com/rematocorp/stylelint-config.git#d699319a4dbb42580a66cfed7a226a2839f85b77"
   dependencies:
     postcss-html "^1.5.0"
     stylelint-config-html "^1.1.0"
