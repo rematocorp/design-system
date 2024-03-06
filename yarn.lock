@@ -87,11 +87,12 @@
   resolved "git+ssh://git@github.com/rematocorp/prettier-config.git#f4c3638375c22430274a50ec593aa7a267a35f3a"
 
 "@remato/stylelint-config@git+ssh://git@github.com/rematocorp/stylelint-config.git#master":
-  version "1.10.6"
-  uid e205a995c8ec873d08a5fa712fbcbdf1af85ff85
-  resolved "git+ssh://git@github.com/rematocorp/stylelint-config.git#e205a995c8ec873d08a5fa712fbcbdf1af85ff85"
+  version "2.0.1"
+  uid f4ef11c560fe561d8c5595423e888400d28f61ba
+  resolved "git+ssh://git@github.com/rematocorp/stylelint-config.git#f4ef11c560fe561d8c5595423e888400d28f61ba"
   dependencies:
     postcss-html "^1.6.0"
+    stylelint "^16.2.1"
     stylelint-config-html "^1.1.0"
     stylelint-config-recommended-scss "^14.0.0"
     stylelint-declaration-strict-value "^1.10.4"
