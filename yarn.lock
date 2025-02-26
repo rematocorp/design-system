@@ -83,14 +83,14 @@
 
 "@remato/stylelint-config@git+ssh://git@github.com/rematocorp/stylelint-config.git#master":
   version "3.0.0"
-  uid "0ca7dc66955d6c07a849bb5fcbccbddbdbcab8bb"
-  resolved "git+ssh://git@github.com/rematocorp/stylelint-config.git#0ca7dc66955d6c07a849bb5fcbccbddbdbcab8bb"
+  uid "3bcca00f6c12b91d8ddc09696d333c58d24b1324"
+  resolved "git+ssh://git@github.com/rematocorp/stylelint-config.git#3bcca00f6c12b91d8ddc09696d333c58d24b1324"
   dependencies:
     postcss-html "^1.8.0"
     stylelint "^16.13.2"
     stylelint-config-html "^1.1.0"
     stylelint-config-recommended-scss "^14.1.0"
-    stylelint-declaration-strict-value "^1.10.7"
+    stylelint-declaration-strict-value "^1.10.8"
 
 ajv@^8.0.1:
   version "8.1.0"
@@ -800,10 +800,10 @@ stylelint-config-recommended@^14.0.1:
   resolved "https://registry.yarnpkg.com/stylelint-config-recommended/-/stylelint-config-recommended-14.0.1.tgz#d25e86409aaf79ee6c6085c2c14b33c7e23c90c6"
   integrity sha512-bLvc1WOz/14aPImu/cufKAZYfXs/A/owZfSMZ4N+16WGXLoX5lOir53M6odBxvhgmgdxCVnNySJmZKx73T93cg==
 
-stylelint-declaration-strict-value@^1.10.7:
-  version "1.10.7"
-  resolved "https://registry.yarnpkg.com/stylelint-declaration-strict-value/-/stylelint-declaration-strict-value-1.10.7.tgz#125780a1ead51fc83aee70dbd7267cdf81db7479"
-  integrity sha512-FlMvc3uoQtMcItW3Zh8lHJ7oN2KGns3vZDCaTZoGFRiRIjImQoxO+6gAeRf+Dgi0nXFICIPq9xxFsMi8zuYUsg==
+stylelint-declaration-strict-value@^1.10.8:
+  version "1.10.8"
+  resolved "https://registry.yarnpkg.com/stylelint-declaration-strict-value/-/stylelint-declaration-strict-value-1.10.8.tgz#5543370481ece5e10f1bb780a222705edb67afb8"
+  integrity sha512-ZCHSFe+do9jQOGT5k2c+9Gn25p0R9z4d7tBGil0BDT3KVhjnp7E0nu3QFhYZ7PtVbQSZfsfcEBuW+AJy5iJ8aw==
 
 stylelint-scss@^6.4.0:
   version "6.4.1"
