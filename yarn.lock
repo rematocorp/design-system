@@ -83,14 +83,14 @@
 
 "@remato/stylelint-config@git+ssh://git@github.com/rematocorp/stylelint-config.git#master":
   version "3.0.0"
-  uid "3bcca00f6c12b91d8ddc09696d333c58d24b1324"
-  resolved "git+ssh://git@github.com/rematocorp/stylelint-config.git#3bcca00f6c12b91d8ddc09696d333c58d24b1324"
+  uid "1a93cfff3c67174f42d1e62b6b1d464f68d4c61f"
+  resolved "git+ssh://git@github.com/rematocorp/stylelint-config.git#1a93cfff3c67174f42d1e62b6b1d464f68d4c61f"
   dependencies:
     postcss-html "^1.8.0"
-    stylelint "^16.13.2"
+    stylelint "^16.14.1"
     stylelint-config-html "^1.1.0"
     stylelint-config-recommended-scss "^14.1.0"
-    stylelint-declaration-strict-value "^1.10.8"
+    stylelint-declaration-strict-value "^1.10.10"
 
 ajv@^8.0.1:
   version "8.1.0"
@@ -222,10 +222,20 @@ cosmiconfig@^9.0.0:
     js-yaml "^4.1.0"
     parse-json "^5.2.0"
 
+css-color-names@0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/css-color-names/-/css-color-names-0.0.4.tgz#808adc2e79cf84738069b646cb20ec27beb629e0"
+  integrity sha512-zj5D7X1U2h2zsXOAM8EyUREBnnts6H+Jm+d1M2DbiQQcUtnqgQsMrdo8JW9R80YFUmIdBZeMu5wvYM7hcgWP/Q==
+
 css-functions-list@^3.2.3:
   version "3.2.3"
   resolved "https://registry.yarnpkg.com/css-functions-list/-/css-functions-list-3.2.3.tgz#95652b0c24f0f59b291a9fc386041a19d4f40dbe"
   integrity sha512-IQOkD3hbR5KrN93MtcYuad6YPuTSUhntLHDuLEbFWE+ff2/XSZNdZG+LcbbIW5AXKg/WFIfYItIzVoHngHXZzA==
+
+css-shorthand-properties@^1.0.0:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/css-shorthand-properties/-/css-shorthand-properties-1.1.2.tgz#38fe2d8422190607cdb19c273c42303b774daf99"
+  integrity sha512-C2AugXIpRGQTxaCW0N7n5jD/p5irUmCrwl03TrnMFBHDbdq44CFWR2zO7rK9xPN4Eo3pUxC4vQzQgbIpzrD1PQ==
 
 css-tree@^3.1.0:
   version "3.1.0"
@@ -234,6 +244,15 @@ css-tree@^3.1.0:
   dependencies:
     mdn-data "2.12.2"
     source-map-js "^1.0.1"
+
+css-values@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/css-values/-/css-values-0.1.0.tgz#128b7ce103d4dc027a814a5d5995c54781d7b4c6"
+  integrity sha512-hQ6JSn4t/70aOCvdlP9zTOsFFUifMSKWz3PX7rz5NZl+uEHCqTFVJJvfP07isErCGEVHYoc8Orja8wLKZRvOeg==
+  dependencies:
+    css-color-names "0.0.4"
+    ends-with "^0.2.0"
+    postcss-value-parser "^3.3.0"
 
 cssesc@^3.0.0:
   version "3.0.0"
@@ -288,6 +307,11 @@ emoji-regex@^8.0.0:
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-8.0.0.tgz#e818fd69ce5ccfcb404594f842963bf53164cc37"
   integrity sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==
+
+ends-with@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/ends-with/-/ends-with-0.2.0.tgz#2f9da98d57a50cfda4571ce4339000500f4e6b8a"
+  integrity sha512-lRppY4dK3VkqBdR242sKcAJeYc8Gf/DhoX9AWvWI2RzccmLnqBQfwm2k4oSDv5MPDjUqawCauXhZkyWxkVhRsg==
 
 entities@^4.2.0, entities@^4.4.0:
   version "4.5.0"
@@ -692,6 +716,11 @@ postcss-selector-parser@^7.0.0:
     cssesc "^3.0.0"
     util-deprecate "^1.0.2"
 
+postcss-value-parser@^3.3.0:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-3.3.1.tgz#9ff822547e2893213cf1c30efa51ac5fd1ba8281"
+  integrity sha512-pISE66AbVkp4fDQ7VHBwRNXzAAKJjw4Vw7nWI/+Q3vuly7SNfgYXvm6i5IgFylHGK5sP/xHAbB7N49OS4gWNyQ==
+
 postcss-value-parser@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz#723c09920836ba6d3e5af019f92bc0971c02e514"
@@ -735,6 +764,13 @@ run-parallel@^1.1.9:
   version "1.1.10"
   resolved "https://registry.yarnpkg.com/run-parallel/-/run-parallel-1.1.10.tgz#60a51b2ae836636c81377df16cb107351bcd13ef"
   integrity sha512-zb/1OuZ6flOlH6tQyMPUrE3x3Ulxjlo9WIVXR4yVYi4H9UXQaeIsPbLn2R3O3vQCnDKkAl2qHiuocKKX4Tz/Sw==
+
+shortcss@^0.1.3:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/shortcss/-/shortcss-0.1.3.tgz#ee2a7904d80b7f5502c98408f4a2f313faadfb48"
+  integrity sha512-MIOoTd99CIGTrAuGiMUx9VZrnrZmWzEHuKbGM/w+ia/w98cezhlN9w4aQOVSxswdoqkUnWrMw3tThOi3sevZAg==
+  dependencies:
+    css-shorthand-properties "^1.0.0"
 
 signal-exit@^4.0.1:
   version "4.0.2"
@@ -800,10 +836,13 @@ stylelint-config-recommended@^14.0.1:
   resolved "https://registry.yarnpkg.com/stylelint-config-recommended/-/stylelint-config-recommended-14.0.1.tgz#d25e86409aaf79ee6c6085c2c14b33c7e23c90c6"
   integrity sha512-bLvc1WOz/14aPImu/cufKAZYfXs/A/owZfSMZ4N+16WGXLoX5lOir53M6odBxvhgmgdxCVnNySJmZKx73T93cg==
 
-stylelint-declaration-strict-value@^1.10.8:
-  version "1.10.8"
-  resolved "https://registry.yarnpkg.com/stylelint-declaration-strict-value/-/stylelint-declaration-strict-value-1.10.8.tgz#5543370481ece5e10f1bb780a222705edb67afb8"
-  integrity sha512-ZCHSFe+do9jQOGT5k2c+9Gn25p0R9z4d7tBGil0BDT3KVhjnp7E0nu3QFhYZ7PtVbQSZfsfcEBuW+AJy5iJ8aw==
+stylelint-declaration-strict-value@^1.10.10:
+  version "1.10.10"
+  resolved "https://registry.yarnpkg.com/stylelint-declaration-strict-value/-/stylelint-declaration-strict-value-1.10.10.tgz#16f9077d4393ac2d5ed0985ec860a436e99efe09"
+  integrity sha512-bZYZBwr45on9AW4JW258M7RzkabNuD0i8/MIq759EmMH8oDJwY54NBiu6lzMc2Z1YiXo/bpfEh94s6Q0e/1uBg==
+  dependencies:
+    css-values "^0.1.0"
+    shortcss "^0.1.3"
 
 stylelint-scss@^6.4.0:
   version "6.4.1"
@@ -816,7 +855,7 @@ stylelint-scss@^6.4.0:
     postcss-selector-parser "^6.1.0"
     postcss-value-parser "^4.2.0"
 
-stylelint@^16.13.2, stylelint@^16.14.1:
+stylelint@^16.14.1:
   version "16.14.1"
   resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-16.14.1.tgz#32d3df8c5ce7ba0275ce6a4a966b6099d7a828e3"
   integrity sha512-oqCL7AC3786oTax35T/nuLL8p2C3k/8rHKAooezrPGRvUX0wX+qqs5kMWh5YYT4PHQgVDobHT4tw55WgpYG6Sw==
