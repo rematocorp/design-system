@@ -77,9 +77,9 @@
     fastq "^1.6.0"
 
 "@remato/prettier-config@git+ssh://git@github.com/rematocorp/prettier-config.git#master":
-  version "1.0.0"
-  uid f4c3638375c22430274a50ec593aa7a267a35f3a
-  resolved "git+ssh://git@github.com/rematocorp/prettier-config.git#f4c3638375c22430274a50ec593aa7a267a35f3a"
+  version "1.1.0"
+  uid "79bef35742cd517e97ea7ec022522acb128bccec"
+  resolved "git+ssh://git@github.com/rematocorp/prettier-config.git#79bef35742cd517e97ea7ec022522acb128bccec"
 
 "@remato/stylelint-config@git+ssh://git@github.com/rematocorp/stylelint-config.git#master":
   version "3.0.0"
