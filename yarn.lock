@@ -83,11 +83,11 @@
 
 "@remato/stylelint-config@git+ssh://git@github.com/rematocorp/stylelint-config.git#master":
   version "3.0.0"
-  uid "59099fe6462cce02c82123f955aa4f7fc298f486"
-  resolved "git+ssh://git@github.com/rematocorp/stylelint-config.git#59099fe6462cce02c82123f955aa4f7fc298f486"
+  uid "0478b53ad80142adb3e5302aadfe972e54578fcc"
+  resolved "git+ssh://git@github.com/rematocorp/stylelint-config.git#0478b53ad80142adb3e5302aadfe972e54578fcc"
   dependencies:
     postcss-html "^1.8.0"
-    stylelint "^16.21.1"
+    stylelint "^16.22.0"
     stylelint-config-html "^1.1.0"
     stylelint-config-recommended-scss "^15.0.1"
     stylelint-declaration-strict-value "^1.10.11"
@@ -816,7 +816,7 @@ stylelint-scss@^6.12.0:
     postcss-selector-parser "^7.1.0"
     postcss-value-parser "^4.2.0"
 
-stylelint@^16.21.1, stylelint@^16.22.0:
+stylelint@^16.22.0:
   version "16.22.0"
   resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-16.22.0.tgz#00020f4390a8625cf7f707820c1b6b538e4b0fa3"
   integrity sha512-SVEMTdjKNV4ollUrIY9ordZ36zHv2/PHzPjfPMau370MlL2VYXeLgSNMMiEbLGRO8RmD2R8/BVUeF2DfnfkC0w==
