@@ -37,6 +37,8 @@ const colors = {
 	blue200: '#c3e1fc',
 	blue100: '#e7f3fe',
 
+	purple500: '#9b5de5',
+
 	red700: '#ac1800',
 	red600: '#c63209',
 	red500: '#df4b22',
