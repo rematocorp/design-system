@@ -115,7 +115,7 @@ __metadata:
     "@remato/prettier-config": "git+ssh://git@github.com/rematocorp/prettier-config.git#master"
     "@remato/stylelint-config": "git+ssh://git@github.com/rematocorp/stylelint-config.git#master"
     stylelint: "npm:^16.24.0"
-    typescript: "npm:^5.9.2"
+    typescript: "npm:^5.9.3"
   languageName: unknown
   linkType: soft
 
@@ -128,14 +128,14 @@ __metadata:
 
 "@remato/stylelint-config@git+ssh://git@github.com/rematocorp/stylelint-config.git#master":
   version: 3.0.0
-  resolution: "@remato/stylelint-config@git+ssh://git@github.com/rematocorp/stylelint-config.git#commit=bce9298545a41e33598765142d7fe347bcd378ca"
+  resolution: "@remato/stylelint-config@git+ssh://git@github.com/rematocorp/stylelint-config.git#commit=e454e72558ca15f5f9439a587b7f6ca5b993cf9c"
   dependencies:
     postcss-html: "npm:^1.8.0"
     stylelint: "npm:^16.24.0"
     stylelint-config-html: "npm:^1.1.0"
-    stylelint-config-recommended-scss: "npm:^16.0.0"
+    stylelint-config-recommended-scss: "npm:^16.0.1"
     stylelint-declaration-strict-value: "npm:^1.10.11"
-  checksum: 10c0/7ff00dd800b606aac922bbec778bb9940582fbe47912e20e7e81e8fd4ab3d0759491fddf249c7860bdafb2cd8c1c74f873ca84e9ca179baf957e7fa3e514c36e
+  checksum: 10c0/c7d6ddf8e09b4dcc4acf864f2f59fad43558144bf0f22db82582fd545911b8b4414a5177b79399d964387f1971d1188c0702b8ce1bf44e31fcc33bb9c2bc06cd
   languageName: node
   linkType: hard
 
@@ -1055,20 +1055,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-config-recommended-scss@npm:^16.0.0":
-  version: 16.0.0
-  resolution: "stylelint-config-recommended-scss@npm:16.0.0"
+"stylelint-config-recommended-scss@npm:^16.0.1":
+  version: 16.0.2
+  resolution: "stylelint-config-recommended-scss@npm:16.0.2"
   dependencies:
     postcss-scss: "npm:^4.0.9"
     stylelint-config-recommended: "npm:^17.0.0"
     stylelint-scss: "npm:^6.12.1"
   peerDependencies:
     postcss: ^8.3.3
-    stylelint: ^16.23.1
+    stylelint: ^16.24.0
   peerDependenciesMeta:
     postcss:
       optional: true
-  checksum: 10c0/9b0d953edb6e8042e2095117d676e2e9591a840f3091534270238df327bee3afc846ad7b316c475617c96ddfa8f39f792a5d88541026104458b93873f00858cc
+  checksum: 10c0/d4e30a881e248d8b039347bf967526f6afe6d6a07f18e2747e14568de32273e819ba478be7a61a0dd63178931b4e891050a34e73d296ab533aa434209a7f3146
   languageName: node
   linkType: hard
 
@@ -1213,23 +1213,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.9.2":
-  version: 5.9.2
-  resolution: "typescript@npm:5.9.2"
+"typescript@npm:^5.9.3":
+  version: 5.9.3
+  resolution: "typescript@npm:5.9.3"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/cd635d50f02d6cf98ed42de2f76289701c1ec587a363369255f01ed15aaf22be0813226bff3c53e99d971f9b540e0b3cc7583dbe05faded49b1b0bed2f638a18
+  checksum: 10c0/6bd7552ce39f97e711db5aa048f6f9995b53f1c52f7d8667c1abdc1700c68a76a308f579cd309ce6b53646deb4e9a1be7c813a93baaf0a28ccd536a30270e1c5
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^5.9.2#optional!builtin<compat/typescript>":
-  version: 5.9.2
-  resolution: "typescript@patch:typescript@npm%3A5.9.2#optional!builtin<compat/typescript>::version=5.9.2&hash=379a07"
+"typescript@patch:typescript@npm%3A^5.9.3#optional!builtin<compat/typescript>":
+  version: 5.9.3
+  resolution: "typescript@patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=379a07"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/66fc07779427a7c3fa97da0cf2e62595eaff2cea4594d45497d294bfa7cb514d164f0b6ce7a5121652cf44c0822af74e29ee579c771c405e002d1f23cf06bfde
+  checksum: 10c0/6f7e53bf0d9702350deeb6f35e08b69cbc8b958c33e0ec77bdc0ad6a6c8e280f3959dcbfde6f5b0848bece57810696489deaaa53d75de3578ff255d168c1efbd
   languageName: node
   linkType: hard
 
