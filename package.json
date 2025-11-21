@@ -15,7 +15,7 @@
 	"devDependencies": {
 		"@remato/prettier-config": "git+ssh://git@github.com/rematocorp/prettier-config.git#master",
 		"@remato/stylelint-config": "git+ssh://git@github.com/rematocorp/stylelint-config.git#master",
-		"stylelint": "^16.25.0",
+		"stylelint": "^16.26.0",
 		"typescript": "^5.9.3"
 	},
 	"prettier": "@remato/prettier-config",
