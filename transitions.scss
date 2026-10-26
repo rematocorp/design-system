@@ -31,7 +31,7 @@ $ease-in-expo: cubic-bezier(0.7, 0, 0.84, 0); // https://easings.net/#easeInExpo
 $ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1); // https://easings.net/#easeOutExpo
 $ease-in-out-expo: cubic-bezier(0.87, 0, 0.13, 1); // https://easings.net/#easeInOutExpo
 
-$ease-out-sheet: cubic-bezier(0.32, 0.72, 0, 1); // Close to the iOS sheet spring, https://cubic-bezier.com/#.32,.72,0,1
+$ease-out-sheet: cubic-bezier(0.32, 0.72, 0, 1); // Ionic's iOS sheet curve, https://github.com/ionic-team/ionic-framework/blob/0fd9e824508333a53175d7da5f681fc3126a2394/core/src/components/modal/animations/ios.enter.ts#L42
 
 // Most common durations
 $duration-100: 100ms;
