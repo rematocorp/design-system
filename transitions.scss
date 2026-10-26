@@ -31,7 +31,7 @@ $ease-in-expo: cubic-bezier(0.7, 0, 0.84, 0); // https://easings.net/#easeInExpo
 $ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1); // https://easings.net/#easeOutExpo
 $ease-in-out-expo: cubic-bezier(0.87, 0, 0.13, 1); // https://easings.net/#easeInOutExpo
 
-$ease-out-ios: cubic-bezier(0.32, 0.72, 0, 1); // Close to the iOS sheet spring
+$ease-out-sheet: cubic-bezier(0.32, 0.72, 0, 1); // Close to the iOS sheet spring, https://cubic-bezier.com/#.32,.72,0,1
 
 // Most common durations
 $duration-100: 100ms;
